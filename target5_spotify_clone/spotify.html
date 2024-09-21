@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-black">
     <header>
-            <div class="w-full h-16 flex justify-between px-8 ">
+            <div class="w-full h-16 flex justify-between px-8 fixed z-50 top-0 bg-black">
                 <div class="h-full w-20 flex items-center">
                     <img class="h-14 w-10" src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg" alt="">
                 </div>
@@ -31,8 +31,8 @@
         </div>
     </header>
     <main class="flex">
-        <div class="h-full w-96 bg-zinc-900 rounded-xl ml-2">
-            <div class="h-20 w-full px-5 flex justify-between">
+        <div class="h-[580px] md:w-96 sm:w-80 bg-zinc-900 rounded-xl ml-2 mt-16 fixed">
+            <div class="h-20 px-5 flex justify-between">
                 <div class="flex items-center">
                     <img class="h-9 opacity-70 hover:opacity-100 bg-white rounded-full"
                         src="https://cdn-icons-png.freepik.com/256/10238/10238046.png?ga=GA1.1.2096381491.1726028399&semt=ais_hybrid"
@@ -45,96 +45,143 @@
                         alt="">
                 </div>
             </div>
-            <div class="h-40 w-full">
-                <div class="h-40 bg-zinc-800 rounded-xl mt-2 mx-2">
-                    <h2 class="text-lg text-white font-bold pt-5 pl-5">Create your first playlist</h2>
-                    <p class="text-white mt-2 pl-5 font-semibold">It's easy, we'll help you </p>
+            <div class="h-40 md:w-full sm:w-80">
+                <div class="h-36 bg-zinc-800 rounded-xl mt-2 mx-2">
+                    <h2 class=" text-white font-bold pt-5 pl-5">Create your first playlist</h2>
+                    <p class="text-white text-sm mt-2 pl-5 font-semibold">It's easy, we'll help you </p>
                     <div class="pl-5">
                         <button class="h-8 w-32 text-black bg-white rounded-xl mt-5 font-semibold">Create
                             Playlist</button>
                     </div>
                 </div>
             </div>
-            <div class="h-52 w-full">
-                <div class="h-52 bg-zinc-800 rounded-xl mt-5 mx-2">
-                    <h2 class="text-lg text-white font-bold pt-5 pl-5">Let's find some prodcasts to follow</h2>
-                    <p class="text-white mt-2 pl-5 font-semibold">We'll keep you updated on new episodes</p>
+            <div class="sm:h-fit md:h-40 md:w-full sm:w-80">
+                <div class="h-36 bg-zinc-800 rounded-xl mt-1 mx-2">
+                    <h2 class="text-white font-bold pt-5 pl-5">Let's find some prodcasts to follow</h2>
+                    <p class="text-white mt-2 pl-5 font-semibold text-sm">We'll keep you updated on new episodes</p>
                     <div class="pl-5">
                         <button class="h-8 w-36 text-black bg-white rounded-xl mt-5 font-semibold">Browse
                             podcasts</button>
                     </div>
                 </div>
             </div>
-            <div class="text-white text-sm flex flex-col h-44 w-full mt-1">
+            <div class="text-white text-[12px] flex flex-col h-44 w-full mt-1">
                 <div class="mt-5 ml-5 opacity-65">
-                    <a class="" href="">Legal</a>
-                    <a href="">Safety & Privacy Center</a>
-                    <a href="">Privacy Policy</a>
+                    <a href="">Legal</a>
+                    <a class="ml-4" href="">Safety & Privacy Center</a>
+                    <a class="ml-4" href="">Privacy Policy</a>
                 </div>
                 <div class="mt-3 ml-5 opacity-65">
                     <a href="">Cookies</a>
-                    <a href="">About Ads</a>
-                    <a href="">Accessibility</a>
+                    <a class="ml-4" href="">About Ads</a>
+                    <a class="ml-4" href="">Accessibility</a>
                 </div>
                 <div class="mt-3 ml-5">
                     <a href="">Cookies</a>
                 </div>
-                <div class="mt-4 ml-5">
-                    <button class="border-2 border-white text-white font-semibold h-8 w-20 rounded-xl">English</button>
+                <div class="mt-8 md:mt-5 ml-5">
+                    <button class="border-2 border-white text-white font-semibold h-8 w-20 rounded-xl text-sm">English</button>
                 </div>
             </div>
         </div>
-        <div class="h-full w-fit bg-zinc-800 ml-3 rounded-lg">
-            <h1 class="text-3xl font-semibold text-white mt-5 ml-5">Popular artists</h1>
-            <div class="flex flex-wrap mt-5 justify-around">
-                <div class="ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-                <div class=" ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-                <div class=" ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-                <div class=" ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-                <div class=" ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-                <div class=" ml-5 text-white">
-                    <div class="rounded-full">
-                        <img class="h-52 w-52 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
-                    </div>
-                    <p>Pritam</p>
-                    <p>Artist</p>
-                </div>
-
+        <div class="h-[580px] w-screen bg-zinc-800  rounded-lg ml-[335px] mt-16 md:ml-[400px] overflow-auto mr-2 overscroll-none">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-semibold text-white mt-5 ml-5">Popular artists</h1>
+                <p class="text-white text-sm pt-8 pr-5 cursor-pointer">Show all</p>
             </div>
-            
+            <div class="flex flex-wrap mt-5 justify-around w-full h-60">
+                <div class=" text-white h-full w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44 rounded-full" src="https://wallpapers.com/images/high/indian-singer-arijit-singh-live-in-chicago-2015-7jvnlbim12nvg2l3.webp" alt="">
+                    </div>
+                    <p class="hover:underline">Arijit Singh</p>
+                    <p class="opacity-70 text-sm">Artist</p>
+                </div>
+                <div class="pl-2 text-white h-full w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer" >
+                    <div class=" w-full h-fit">
+                        <img class="w-full h-44 rounded-full" src="https://media.gettyimages.com/id/633589028/photo/toronto-on-academy-award-winning-composer-a-r-rahman-attends-the-ideal-entertainment-launch-at.jpg?s=612x612&w=0&k=20&c=jWyx4yipkw8iBuCobwDWxRq_HEfq2qS7Ry3BLLAVUnM=" alt="">
+                    </div>
+                    <p class="hover:underline">A.R. Rahman</p>
+                    <p class="opacity-70 text-sm">Artist</p>
+                </div>
+                <div class="pl-2 text-white h-full w-48 hidden md:block hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer" >
+                    <div class=" w-full h-fit">
+                        <img class="w-full h-44 rounded-full" src="https://media.gettyimages.com/id/951729148/photo/indian-rap-singer-badshah-arrives-for-a-promotional-event-in-mumbai-on-late-april-26-2018.jpg?s=612x612&w=0&k=20&c=W3zrnQ-_hDv6Z3EGmLqXrSry6kFq8YImc56BdktMyPE=" alt="">
+                    </div>
+                    <p class="hover:underline">Badshah</p>
+                    <p class="opacity-70 text-sm">Artist</p>
+                </div>
+                <div class="pl-2 text-white h-full w-48 hidden md:block hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer">
+                    <div class=" w-full h-fit">
+                        <img class="w-full h-44 rounded-full" src="https://wallpapers.com/images/high/yo-yo-honey-singh-the-xpose-wbsr6jfykabagq2o.webp" alt="">
+                    </div>
+                    <p class="hover:underline">Yo Yo Honey Singh</p>
+                    <p class="opacity-70 text-sm">Artist</p>
+                </div>
+                <div class="pl-2 text-white h-full w-48 hidden md:block hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer">
+                    <div class=" w-full h-fit">
+                        <img class="w-full h-44 rounded-full" src="https://wallpapers.com/images/high/darshan-raval-hd-boy-next-door-2csq2cda1n14rnwk.webp" alt="">
+                    </div>
+                    <p class="hover:underline">Darshan Ravel</p>
+                    <p class="opacity-70 text-sm">Artist</p>
+                </div>
+            </div>
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-semibold text-white mt-5 ml-5">Popular albums</h1>
+                <p class="text-white text-sm pt-8 pr-5 cursor-pointer">Show all</p>
+            </div>
+            <div class="flex flex-wrap mt-5 justify-around w-full h-60">
+                <div class=" text-white h-64 w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44" src="https://m.media-amazon.com/images/M/MV5BZmNjZjU3YWMtOGJiNC00MWQwLWFkZDgtYWM1OGJiNDUyNThkXkEyXkFqcGdeQXVyNjkwOTg4MTA@._V1_QL75_UX1230_.jpg" alt="">
+                    </div>
+                    <p class="hover:underline mt-2">Aashiqui 2</p>
+                    <p class="opacity-70 text-sm text-[12px]">Mithoon, Ankit Tiwari, Jeet Gannguli</p>
+                </div>
+                <div class=" text-white h-64 w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44" src="https://c.saavncdn.com/862/Love-Aaj-Kal-Hindi-2020-20200214140423-500x500.jpg" alt="">
+                    </div>
+                    <p class="hover:underline mt-2">Shayad</p>
+                    <p class="opacity-70 text-sm text-[12px]">Pritam, Arijit Singh</p>
+                </div>
+                <div class=" text-white h-64 w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer hidden md:block">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44" src="https://c.saavncdn.com/173/GLORY-Hindi-2024-20240827141003-500x500.jpg" alt="">
+                    </div>
+                    <p class="hover:underline mt-2">Millionaire</p>
+                    <p class="opacity-70 text-sm text-[12px]">Yo Yo Honey Singh</p>
+                </div>
+                <div class=" text-white h-64 w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer hidden md:block">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44" src="https://c.saavncdn.com/815/Bhediya-Hindi-2023-20230927155213-500x500.jpg" alt="">
+                    </div>
+                    <p class="hover:underline mt-2">Bhediya</p>
+                    <p class="opacity-70 text-sm text-[12px]">Divya Kumar, Rashmeet Kaur</p>
+                </div>
+                <div class=" text-white h-64 w-48 hover:shadow-lg p-2 rounded-lg hover:bg-zinc-700  hover:cursor-pointer hidden md:block">
+                    <div class="w-full h-fit">
+                        <img class="w-full h-44" src="https://c.saavncdn.com/256/Befikre-Hindi-2016-20190329150318-500x500.jpg" alt="">
+                    </div>
+                    <p class="hover:underline mt-2">Nashe Si Chadh Gayi</p>
+                    <p class="opacity-70 text-sm text-[12px]">Arijit Singh, Jaideep Sahni</p>
+                </div>
+                
+            </div>
         </div>
         
     </main>
+    <footer>
+        <div class="h-[71px] w-auto bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 fixed bottom-2 left-2 right-2 px-2 flex justify-between hover:cursor-pointer">
+            <div class="sm:mt-1 md:mt-2 text-white">
+              <p class="text-sm block font-bold">Preview of Spotify</p>
+              <p class="text-[16px] font-semibold">Sign up to get unlimited songs and podcasts with occasional ads. No credit card <br class="md:hidden"> needed.</p>
+            </div>
+            <div class="flex items-center">
+              <button class="bg-white h-12 w-32 rounded-full text-sm font-bold">Sign up free</button>
+            </div>
+          </div>
+    </footer>
 </body>
 
 </html>
